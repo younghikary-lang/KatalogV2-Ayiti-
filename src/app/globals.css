@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #fbfbfd;
+  --foreground: #1d1d1f;
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --muted: #f5f5f7;
+  --muted-foreground: #86868b;
+  --border: #d2d2d7;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b1120;
+    --foreground: #ffffff;
+    --accent: #3b82f6;
+    --accent-hover: #2563eb;
+    --muted: #0f172a;
+    --muted-foreground: rgba(255, 255, 255, 0.5);
+    --border: rgba(255, 255, 255, 0.08);
+    --glass-bg: rgba(15, 23, 42, 0.72);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.15) 0%, transparent 60%),
+    linear-gradient(135deg, #0b1120 0%, #0f172a 50%, #1e1b4b 100%) !important;
+  background-attachment: fixed !important;
+  min-height: 100vh;
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 4️⃣ HEADER GLASS + BLUR */
+@utility glass {
+  background: rgba(15, 23, 42, 0.6) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+/* 3️⃣ PRIMARY BUTTON SYSTEM (Glow Gradient) */
+.btn-primary {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6) !important;
+  color: #ffffff !important;
+  transition: all 200ms ease !important;
+  box-shadow: none;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #2563eb, #7c3aed) !important;
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.5) !important;
+}
+
+/* Category Card Depth and Hover Lift */
+.category-card {
+  background-color: rgba(15, 23, 42, 0.75) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 40px rgba(59, 130, 246, 0.05) !important;
+  transform: translateY(0);
+  transition: all 200ms ease !important;
+}
+
+.category-card:hover {
+  transform: translateY(-4px) !important;
+}
+
+/* 2️⃣ SURFACE SYSTEM (Cards, Forms, Panels) */
+.glass-surface,
+.bg-muted\/30,
+.bg-muted\/20,
+.dark\:bg-\[\#1d1d1f\],
+.dark\:bg-\[\#0f172a\],
+.dark\:bg-black,
+.bg-white {
+  background-color: #0f172a !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
+  color: #ffffff !important;
+}
+
+/* Global Form Overrides targeting specific inputs */
+input,
+select,
+textarea {
+  background-color: #0f172a !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #ffffff !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}

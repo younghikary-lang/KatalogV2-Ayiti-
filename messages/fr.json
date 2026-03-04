@@ -1,0 +1,104 @@
+{
+  "Navbar": {
+    "searchPlaceholder": "Rechercher...",
+    "login": "Connexion"
+  },
+  "Checkout": {
+    "title": "Paiement",
+    "secure": "Paiement sécurisé crypté 256-bits",
+    "step1": "Livraison",
+    "step2": "Paiement",
+    "contact": "Contact & Identité",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "Adresse email (optionnel)",
+    "whatsapp": "Numéro WhatsApp (Obligatoire pour livraison)",
+    "addressTitle": "Adresse de Livraison (Haïti)",
+    "selectCommune": "Sélectionnez votre Commune",
+    "communes": {
+      "port-au-prince": "Port-au-Prince",
+      "petion-ville": "Pétion-Ville",
+      "delmas": "Delmas",
+      "tabarre": "Tabarre",
+      "carrefour": "Carrefour",
+      "croix-des-bouquets": "Croix-des-Bouquets",
+      "autres": "Autres quartiers (Province)"
+    },
+    "street": "Quartier ou Rue",
+    "instructions": "Instructions spéciales ou points de repère (Ex: Maison blanche face à l'église)",
+    "continue": "Continuer vers le Paiement",
+    "back": "← Retour aux informations",
+    "paymentMethod": "Méthode de Paiement",
+    "cod": "Paiement à la Livraison (Cash)",
+    "moncash": "MonCash (Transfert)",
+    "zelle": "Zelle (US Clients)",
+    "confirm": "Confirmer la Commande",
+    "summary": "Résumé de la Commande",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "freeShipping": "Gratuite (Haïti)",
+    "tax": "Taxes estimées",
+    "total": "Total",
+    "terms": "En continuant, vous acceptez nos Conditions d'utilisation."
+  },
+  "Register": {
+    "title": "Créer un compte",
+    "subtitle": "Gagnez du temps sur vos achats.",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email (Optionnel)",
+    "whatsapp": "Numéro WhatsApp",
+    "password": "Mot de passe",
+    "submit": "Créer mon compte",
+    "loading": "Création en cours...",
+    "errorAuth": "Numéro de téléphone déjà utilisé",
+    "success": "Compte créé ! Vos anciennes commandes sont liées.",
+    "loginLink": "Déjà un compte ? Connectez-vous",
+    "benefits": "Historique de vos commandes et paiement plus rapide."
+  },
+  "Cart": {
+    "title": "Votre Panier",
+    "empty": "Votre panier est vide.",
+    "continueShopping": "Continuer les achats",
+    "subtotal": "Sous-total",
+    "checkout": "Passer à la caisse",
+    "progressRemaining": "Il vous manque <amount>{value}</amount> pour la livraison gratuite !",
+    "progressUnlocked": "Félicitations ! Livraison gratuite débloquée."
+  },
+  "Dashboard": {
+    "admin": "Tableau de Bord Admin",
+    "driver": "Tableau de Bord Livreur",
+    "client": "Mon Compte"
+  },
+  "Success": {
+    "title": "Commande Confirmée !",
+    "message": "Merci pour votre achat. Notre équipe vous contactera sous peu (via WhatsApp) pour finaliser la livraison.",
+    "back": "Retour à l'accueil"
+  },
+  "Home": {
+    "heroTitle": "Le meilleur d'Haïti, livré chez vous.",
+    "heroSubtitle": "Une Plateforme Premium reliant Diaspora et Locaux. Commandez, nous livrerons.",
+    "buyNow": "Acheter maintenant",
+    "learnMore": "En savoir plus",
+    "shopByCategory": "Acheter par catégorie",
+    "theLatest": "Les nouveautés.",
+    "takeALook": "Découvrez ce qui vient d'arriver."
+  },
+  "Product": {
+    "new": "Nouveau",
+    "category": "Catégorie",
+    "from": "À partir de",
+    "buy": "Acheter",
+    "addToBag": "Ajouter au Panier",
+    "buyNow": "Acheter maintenant",
+    "tagline": "Découvrez l'élégance absolue avec le {name}. Conçu pour ceux qui exigent un style exceptionnel et une qualité sans compromis. Fait pour durer et inspirer.",
+    "freeDeliveryTitle": "Livraison Gratuite",
+    "freeDeliveryDesc": "Recevez-le demain si vous commandez dans les 2 prochaines heures.",
+    "freeReturnsTitle": "Retours Gratuits",
+    "freeReturnsDesc": "Retournez sous 14 jours pour un remboursement complet, sans questions.",
+    "premiumWarrantyTitle": "Protection Étendue",
+    "premiumWarrantyDesc": "Ajoutez une tranquillité d'esprit avec une garantie de 1 an sur vos pièces.",
+    "onlyXLeft": "Plus que {stock} en stock",
+    "orderSoon": "Plus que {stock} exemplaires - commandez vite."
+  }
+}

@@ -1,0 +1,104 @@
+{
+    "Navbar": {
+        "searchPlaceholder": "Chache...",
+        "login": "Konekte"
+    },
+    "Checkout": {
+        "title": "Pèman",
+        "secure": "Pèman an sekirite (256-bits)",
+        "step1": "Livrezon",
+        "step2": "Pèman",
+        "contact": "Enfòmasyon sou Ou",
+        "firstName": "Non",
+        "lastName": "Siyati",
+        "email": "Imèl (Opsyonèl)",
+        "whatsapp": "Nimewo WhatsApp (Obligatwa)",
+        "addressTitle": "Adrès Livrezon (Ayiti)",
+        "selectCommune": "Chwazi Komin ou an",
+        "communes": {
+            "port-au-prince": "Pòtoprens",
+            "petion-ville": "Petyonvil",
+            "delmas": "Dèlma",
+            "tabarre": "Taba",
+            "carrefour": "Kafou",
+            "croix-des-bouquets": "Kwadèboukè",
+            "autres": "Lòt kote (Pwovens)"
+        },
+        "street": "Katiye oswa Ri",
+        "instructions": "Enstriksyon espesyal oswa pwen repè",
+        "continue": "Kontinye pou Pèman",
+        "back": "← Tounen sou enfòmasyon",
+        "paymentMethod": "Fason Pèman",
+        "cod": "Peye lè y ap Livrezon an (Lajan Kach)",
+        "moncash": "MonCash (Transfè)",
+        "zelle": "Zelle (Kliyan Etazini)",
+        "confirm": "Konfime Kòmand la",
+        "summary": "Rezime Kòmand la",
+        "subtotal": "Sou-total",
+        "shipping": "Livrezon",
+        "freeShipping": "Gratis (Ayiti)",
+        "tax": "Taks",
+        "total": "Total",
+        "terms": "Lè w kontinye, ou asepte Kondisyon Itilizasyon nou yo."
+    },
+    "Register": {
+        "title": "Kreye yon kont",
+        "subtitle": "Enskri byen vit pou gen plis avantaj.",
+        "firstName": "Non ou",
+        "lastName": "Siyati",
+        "email": "Imèl (Opsyonèl)",
+        "whatsapp": "Nimewo WhatsApp",
+        "password": "Modpas",
+        "submit": "Kreye kont mwen an",
+        "loading": "Ap kreye...",
+        "errorAuth": "Nimewo sa a deja anrejistre",
+        "success": "Kont an kreye ! Ansien kòmand ou yo ajoute tou.",
+        "loginLink": "Ou gen kont deja? Konekte",
+        "benefits": "Ak yon kont, kòmand ou yo pi rapid epi ou ka swiv tout istorik ou."
+    },
+    "Cart": {
+        "title": "Pànye w",
+        "empty": "Pànye w vid.",
+        "continueShopping": "Kontinye achte",
+        "subtotal": "Sou-total",
+        "checkout": "Peye Kounye a",
+        "progressRemaining": "Ou manke <amount>{value}</amount> ankò pou Livrezon Gratis!",
+        "progressUnlocked": "Felisitasyon! Livrezon Gratis."
+    },
+    "Dashboard": {
+        "admin": "Espas Administratè",
+        "driver": "Espas Livrè",
+        "client": "Kont Mwen"
+    },
+    "Success": {
+        "title": "Kòmand Konfime!",
+        "message": "Mèsi paske w achte nan men nou. Ekip nou an ap kontakte w talè (sou WhatsApp) pou n ka fè preparasyon livrezon an.",
+        "back": "Tounen Paj Akèy"
+    },
+    "Home": {
+        "heroTitle": "Pi bon nan tout Ayiti, livre tou dwat lakay ou.",
+        "heroSubtitle": "Yon Platfòm Premium ki konekte Dyaspora ak Moun nan Peyi a. Kòmande, epi n ap livre l pou ou.",
+        "buyNow": "Achte kounye a",
+        "learnMore": "Plis enfòmasyon",
+        "shopByCategory": "Achte pa kategori",
+        "theLatest": "Nouvèl yo.",
+        "takeALook": "Gade sa ki fèk rive."
+    },
+    "Product": {
+        "new": "Nouvo",
+        "category": "Kategori",
+        "from": "Kòmanse nan",
+        "buy": "Achte",
+        "addToBag": "Mete nan Pànye",
+        "buyNow": "Achte Kounye a",
+        "tagline": "Dekouvri bèlte siprèm nan avèk {name} lan. Li fèt pou w ki bezwen kalite ak bèlte ki pa gen parèy. Fèt tou poul dire lontan epi enspire w.",
+        "freeDeliveryTitle": "Livrezon Gratis",
+        "freeDeliveryDesc": "Ou ka jwenn li demen si w kòmande nan 2 zè kap vini yo.",
+        "freeReturnsTitle": "Ritounen Gratis",
+        "freeReturnsDesc": "Mennenl tounen nan 14 jou pou wè jwenn kòb ou sanzatann.",
+        "premiumWarrantyTitle": "Pwoteksyon Siplemantè",
+        "premiumWarrantyDesc": "Ajoute plis asirans sou kalite rad oswa soulye ou yo pou 1 an.",
+        "onlyXLeft": "Rete sèlman {stock}",
+        "orderSoon": "Rete sèlman {stock} nan depo a - kòmande rapid."
+    }
+}
