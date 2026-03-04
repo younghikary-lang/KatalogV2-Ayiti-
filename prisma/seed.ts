@@ -49,6 +49,22 @@ async function main() {
         },
     })
 
+    // Extract unique categories and upsert them first
+    const uniqueCategories = new Map();
+    for (const product of MOCK_PRODUCTS) {
+        if (!uniqueCategories.has(product.categoryId) && product.categoryRef) {
+            uniqueCategories.set(product.categoryId, product.categoryRef);
+        }
+    }
+
+    for (const [catId, catRef] of uniqueCategories) {
+        await prisma.category.upsert({
+            where: { id: catId },
+            update: { name: catRef.name, slug: catRef.slug },
+            create: { id: catId, name: catRef.name, slug: catRef.slug }
+        });
+    }
+
     for (const product of MOCK_PRODUCTS) {
         await prisma.product.upsert({
             where: { id: product.id },
@@ -57,7 +73,7 @@ async function main() {
                 price: product.price,
                 description: product.description,
                 image: product.image,
-                categoryId: product.categoryId,
+                categoryRef: { connect: { id: product.categoryId } },
                 isNew: product.isNew,
                 stock: product.stock || 50,
             },
@@ -67,7 +83,7 @@ async function main() {
                 price: product.price,
                 description: product.description,
                 image: product.image,
-                categoryId: product.categoryId,
+                categoryRef: { connect: { id: product.categoryId } },
                 isNew: product.isNew,
                 stock: product.stock || 50,
             }
