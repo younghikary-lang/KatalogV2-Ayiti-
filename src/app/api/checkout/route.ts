@@ -43,4 +43,4 @@ export const POST = withErrorHandler(async (req: NextRequest) => {
         },
         { status: 201 } // Created
     );
-}, { rateLimit: { limit: 3, windowMs: 60000 } });
+}, { rateLimit: { limit: 10, windowMs: 60000 } });
